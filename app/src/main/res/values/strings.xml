@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Huellitas</string>
+    <string name="AppName" >Huellitas</string>
+    <string name="LogoApp">LogoApp</string>
+    <string name="AppDescription">Inicia una nueva aventura con Huellitas y descubre una nueva forma de ver el mundo</string>
+    <string name="StartButton">Comienza</string>
+</resources>
