@@ -1,7 +1,17 @@
 <resources>
     <string name="app_name">Huellitas</string>
-    <string name="AppName" >Huellitas</string>
+    <string name="AppName">Huellitas</string>
     <string name="LogoApp">LogoApp</string>
     <string name="AppDescription">Inicia una nueva aventura con Huellitas y descubre una nueva forma de ver el mundo</string>
     <string name="StartButton">Comienza</string>
+    <string name="RegisterButton">Regístrate</string>
+    <string name="LoginDescription">La aventura está por iniciar,\npor favor inicia sesión</string>
+    <string name="UserLabel">Usuario</string>
+    <string name="LoginLabel">Ingresar</string>
+    <string name="PasswordLabel">Contraseña</string>
+    <string name="LoginGoogleText">Ingresa con Google</string>
+    <string name="RecoverYourPassword">Recupera tu contraseña</string>
+    <string name="notaccounttext">No tienes cuenta? Regístrate</string>
+    <string name="devname">Camilo Peralta</string>
+
 </resources>
