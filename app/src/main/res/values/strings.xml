@@ -13,5 +13,7 @@
     <string name="RecoverYourPassword">Recupera tu contraseña</string>
     <string name="notaccounttext">No tienes cuenta? Regístrate</string>
     <string name="devname">Camilo Peralta</string>
+    <string name="instructivemessage">Para recuperar tu contraseña, ingresa a continuacion el correo electronico registrado</string>
+    <string name="recoverpassword">Recuperar contraseña</string>
 
 </resources>
