@@ -3,6 +3,7 @@ package com.example.miapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -22,6 +23,12 @@ class HomeActivity : AppCompatActivity(){
         val btnStart = findViewById<Button>(R.id.homeStartBtn)
         btnStart.setOnClickListener {
             val intent = Intent(this, Login::class.java)
+            startActivity(intent)
+
+        }
+        val btnRegisterlink = findViewById<TextView>(R.id.registerlink)
+        btnRegisterlink.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
 
         }

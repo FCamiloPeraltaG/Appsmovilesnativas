@@ -2,33 +2,30 @@ package com.example.miapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Login : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.loginMain)) { v, insets ->
+        setContentView(R.layout.activity_register)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.register)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+
         }
-        val forgotPassword = findViewById<TextView>(R.id.loginForgotPassword)
-        forgotPassword.setOnClickListener {
-            val intent = Intent(this, PasswordRecoveryActivity::class.java)
-            startActivity(intent)
-        }
-        val btnRegisterlink = findViewById<TextView>(R.id.loginRegisterLink)
-        btnRegisterlink.setOnClickListener {
-            val intent = Intent(this, RegisterActivity::class.java)
+        val btnRegisterLogin = findViewById<TextView>(R.id.registerloginLink)
+        btnRegisterLogin.setOnClickListener {
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
 
         }
+
     }
 }

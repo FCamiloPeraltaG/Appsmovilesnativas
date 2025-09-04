@@ -15,5 +15,12 @@
     <string name="devname">Camilo Peralta</string>
     <string name="instructivemessage">Para recuperar tu contraseña, ingresa a continuacion el correo electronico registrado</string>
     <string name="recoverpassword">Recuperar contraseña</string>
+    <string name="registermessage">Por favor rellena los siguientes campos para registrarte</string>
+    <string name="registerbuttontext">Registrar</string>
+    <string name="confirmpasswordtext">Confirma tu contraseña</string>
+    <string name="accountalredyexist">¿Ya tienes cuenta?, Inicia sesión</string>
+    <string name="emailexample">fcperalta@ucompensar.edu.co</string>
+    <string name="phoneexample">3013878985</string>
+    <string name="addressexample">Calle 100 #54-32</string>
 
 </resources>
